@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.futloo.studentoftheyear.GameActivity"
+    android:orientation="vertical"
+    android:background="@color/tresclair">
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="SCORE"
+        android:textColor="@color/tresfonce"
+        android:textSize="30sp" />
+
+    <FrameLayout
+        android:id="@+id/fl_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/tresfonce"
+            android:text="Appuyez pour jouer!"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/man"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/iv_zero"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/zero" />
+
+        <ImageView
+            android:id="@+id/iv_un"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/iv_deux"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/two" />
+
+        <ImageView
+            android:id="@+id/iv_trois"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/three" />
+
+        <ImageView
+            android:id="@+id/iv_quatre"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/four" />
+
+        <ImageView
+            android:id="@+id/iv_cinq"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/five" />
+
+        <ImageView
+            android:id="@+id/iv_six"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/six" />
+
+        <ImageView
+            android:id="@+id/iv_sept"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/seven" />
+
+        <ImageView
+            android:id="@+id/iv_huit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/eight" />
+
+        <ImageView
+            android:id="@+id/iv_neuf"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/nine" />
+
+        <ImageView
+            android:id="@+id/iv_dix"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ten" />
+
+        <ImageView
+            android:id="@+id/iv_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/bonus" />
+
+        <ImageView
+            android:id="@+id/iv_temps"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/clock" />
+
+    </FrameLayout>
+
+</LinearLayout>

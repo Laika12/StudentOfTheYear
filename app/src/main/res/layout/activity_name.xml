@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.futloo.studentoftheyear.NameActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Choisissez un pseuso et un avatar..."
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/tresfonce"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="Entrez votre nom..."
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/iv_oldm"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/oldm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/et_name"
+        android:layout_alignStart="@+id/textView2"/>
+
+    <CheckBox
+        android:id="@+id/cb_oldm"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_oldm"
+        android:layout_alignStart="@+id/iv_oldm" />
+
+    <ImageView
+        android:id="@+id/iv_man"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/man"
+        android:layout_alignTop="@+id/iv_oldm"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/cb_man"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_man"
+        android:layout_alignStart="@+id/iv_man" />
+
+    <ImageView
+        android:id="@+id/iv_boy"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/boy"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/iv_man"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/cb_boy"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_boy"
+        android:layout_alignStart="@+id/iv_boy" />
+
+    <ImageView
+        android:id="@+id/iv_oldw"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/oldw"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/cb_oldm"
+        android:layout_alignStart="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/cb_oldw"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_oldw"
+        android:layout_alignStart="@+id/iv_oldw" />
+
+    <ImageView
+        android:id="@+id/iv_woman"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/woman"
+        android:layout_alignTop="@+id/iv_oldw"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/cb_woman"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_woman"
+        android:layout_alignStart="@+id/iv_woman" />
+
+    <ImageView
+        android:id="@+id/iv_girl"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/girl"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/iv_woman"
+        android:layout_alignStart="@+id/cb_boy" />
+
+    <CheckBox
+        android:id="@+id/cb_girl"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_girl"
+        android:layout_alignStart="@+id/iv_girl"/>
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:layout_marginTop="50dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"
+        android:layout_below="@+id/cb_woman"
+        android:layout_centerHorizontal="true"
+        android:onClick="validerChoix"/>
+
+</RelativeLayout>

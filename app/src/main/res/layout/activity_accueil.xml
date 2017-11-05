@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.utilisateur.studentoftheyear.AccueilActivity"
+    android:background="@drawable/wall"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp"
+        android:alpha="0.7"
+        android:background="@color/fonce"
+        android:text="Jouer"
+        android:textColor="@color/clair"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rules"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Règles"
+        android:layout_marginTop="15dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_score"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Top 3"
+        android:layout_marginTop="15dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

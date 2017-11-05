@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.futloo.studentoftheyear.ScoreActivity"
+    android:background="@color/tresclair"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TOP 3"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/tresfonce"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Vous avez eu 3,14! Même mon poisson rouge ferait mieux!"
+        android:textColor="@color/tresfonce"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1er"
+        android:textColor="@color/tresfonce"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premier"
+        android:layout_marginTop="15dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2eme"
+        android:textColor="@color/tresfonce"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_deux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second"
+        android:layout_marginTop="15dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_third"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3eme"
+        android:textColor="@color/tresfonce"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btn_trois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Troisième"
+        android:layout_marginTop="15dp"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="REJOUER"
+        android:background="@color/fonce"
+        android:alpha="0.7"
+        android:textColor="@color/clair"
+        android:textStyle="bold"/>
+
+</LinearLayout>
